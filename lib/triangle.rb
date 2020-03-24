@@ -23,7 +23,7 @@ class Triangle
       begin
         raise TriangleError
       end
-    elsif a + b < c || a + c < b || b + c < a
+    elsif a + b <= c || a + c <= b || b + c <= a
       begin
         raise TriangleError
       end
