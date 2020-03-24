@@ -15,6 +15,7 @@ class Triangle
     elsif a != b && a != c
       :scalene
     else
+      begin 
   end
   
   
