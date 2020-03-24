@@ -21,12 +21,16 @@ class Triangle
     if a <= 0 || b <= 0 || c <= 0
       begin
         raise TriangleError
+      end
+    elsif a + b < c || a + c < b || b + c < a
+      begin
+        raise TriangleError
+      end
+    end
   end
   
   class TriangleError < StandardError
-    def message
       
-    end
   end
   
   
