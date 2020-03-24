@@ -8,6 +8,7 @@ class Triangle
   end
   
   def kind 
+    illegal_triangle
     if a == b && a == c
       :equilateral
     elsif a == b || b == c || a == c
