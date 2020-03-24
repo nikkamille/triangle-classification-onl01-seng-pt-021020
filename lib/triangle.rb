@@ -18,7 +18,7 @@ class Triangle
   end
   
   def illegal_triangle
-    if 
+    if a <= 0 || b <= 0 || c <= 0
   end
   
   class TriangleError < StandardError
