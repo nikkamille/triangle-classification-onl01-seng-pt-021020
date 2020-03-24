@@ -8,7 +8,9 @@ class Triangle
   end
   
   def kind 
-    if a 
+    if a == b && a == c
+      :equilateral
+    elsif 
   end
   
   
